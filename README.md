@@ -4,6 +4,8 @@
   - 環境構築（例：`npm create vite@latest app`）が終わると、`app` フォルダ配下に **`package.json` を含む** いくつかのファイルが作成される。  
   - それらのファイルを **手順に沿って** 編集していくと、最終的にパスワードジェネレーターが完成する。  
   - 事前確認したい場合は、`https://github.com/murcubcc110/vuejs-sample-passwdgen` をクローンして `npm install` → `npm run dev` で動作確認できる（自分はクローンの動作確認のみ実施）。
+  - 最終ファイル構成
+    ![alt text](image-1.png)
 ---
 ## Node.js のバージョンと導入
 - node18がEOLとなっている,最新を導入した　msiをつかった。Dockerは使わず
@@ -14,7 +16,7 @@
 
 ## プロジェクト作成時のプロンプト（入力待ちの画面）
 
-> **メモ**：表示が止まっているように見えても「入力待ち」の場合があります。プロンプトに沿って入力してください。`npm create vite@latest app -- --template vue-ts`こうすれば入力なしで作成可能
+> **メモ**：表示が止まっているように見えても「入力待ち」の場合があります。プロンプトに沿って入力してください。
 
 - **Project name**: `app`（任意。手順に合わせるなら `app`）
 - **Select a framework**: `Vue`
