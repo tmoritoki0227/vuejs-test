@@ -4,7 +4,7 @@
   - 環境構築（例：`npm create vite@latest app`）が終わると、`app` フォルダ配下に **`package.json` を含む** いくつかのファイルが作成される。  
   - それらのファイルを **手順に沿って** 編集していくと、最終的にパスワードジェネレーターが完成する。  
   - 事前確認したい場合は、`https://github.com/murcubcc110/vuejs-sample-passwdgen` をクローンして `npm install` → `npm run dev` で動作確認できる（自分はクローンの動作確認のみ実施）。
-  - 最終ファイル構成
+  - 最終ファイル構成  
     ![alt text](image-1.png)
 ---
 ## Node.js のバージョンと導入
